@@ -1,0 +1,18 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body><script type="text/javascript" src="tag_data/tag.js"></script><script src="tag_data/tag_002.js">{ site: '5FSH2CZ',
+  referrer: 'https://static.traversedlp.com/v1/3868ded5-20b5-4d6b-8722-8ecdc7af7105/container.html?emailMd5Lower\x3d76b25ecf2e3b36c668a45766457d7f72\x26emailMd5Upper\x3d42389cf515f8d97f39105b5110cc77a3\x26emailSha1Lower\x3dae897620c26653425c01e4d542ab98dc3b3f62eb\x26emailSha1Upper\x3dc25581b827c9c62f61768f1506723b2ff9418a8d\x26emailSha256Lower\x3de91c01cd947179c680f8ca55d23cbb9928a0a6f623472811d60f85f4e6c9b050\x26emailSha256Upper\x3d0d1e53a0289a0e2f30edffff2df74e74ed42073ade0cec38b086f18ecfdcb038',
+  loadOnly: true }
+</script><script type="text/javascript">
+BrightTag.site('5FSH2CZ',function(s){
+s.dbe('hashed email md5', 'bt_parameter(\x22e_md5\x22)',{pageId:2474051});
+s.dbe('vendor sync limit', '\x224\x22',{pageId:2474051});
+s.dbe('hashed email sha1', 'bt_parameter(\x22e_sha1\x22)',{pageId:2474051});
+s.domready(function(){
+s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n    // Vendor List\n    var vendor_obj \x3d [\n       [\x27gcms\x27,\x27X7aCaxG\x27,\x27tBLcuKl\x27,\x27an\x27], //Google,TapAd,The Trade Desk,AppNexus\n       [\x27TtHAwbb\x27,\x27mm\x27,\x27gcms\x27,\x27rWc5RFi\x27] // MediaMath,Neustar,Google,Turn\n    ];\n\n    // Number of vendor groups to rotate through\n    var groups \x3d vendor_obj.length;\n\n    // Maximum syncs\n    var max_syncs \x3d 4;\n\n    // Adhere to cookie sync limit if it exists for the client\n    var client_limit \x3d \x22'+s.data('vendor sync limit')+'\x22 || max_syncs;\n\n    // Determine existing view count to use for selecting vendor syncs to execute\n    var cnt \x3d bt_cookie(\x27s.rttrcnt\x27);\n    if (!cnt) { cnt \x3d 0; }\n    cnt \x3d cnt*1 + 1;\n\n    // Build and append image to make /csx call\n    var vendor_grp \x3d vendor_obj[cnt%groups];\n    BrightTag.Util.each(vendor_grp, function (vendor_id, index) {\n        if (index \x3c client_limit) {\n            new Image().src \x3d \x27//s.thebrighttag.com/csx?tp\x3d\x27 + vendor_id;\n        }\n    });\n\x3c/script\x3e',{tagId:4366152});
+s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n    var cnt \x3d bt_cookie(\x27s.rttrcnt\x27);\n    if (cnt \x3d\x3d \x22\x22) cnt \x3d 0;\n    cnt \x3d cnt*1 + 1;\n    var now \x3d new Date();\n    var time \x3d now.getTime();\n    var expireTime \x3d time + 365 * 24 * 60 * 60 * 1000;\n    now.setTime(expireTime);\n    document.cookie\x3d\x22s.rttrcnt\x3d\x22+cnt+\x22;path\x3d/;expires\x3d\x22+now.toGMTString()+\x22;\x22;\n\x3c/script\x3e',{tagId:4366154});
+s.secondary(function(c){
+c.appendData('hashed email md5').appendData('hashed email sha1');
+});
+});
+});
+</script></body></html>
